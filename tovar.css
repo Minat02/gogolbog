@@ -1,0 +1,50 @@
+.hui{
+    float: inline-start;
+    text-align: center;
+    height: 400px;
+    width: 150px;
+    background-color: transparent;
+    margin: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.hui:hover{
+    color: white;
+    background: gray;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+
+.zak{
+    background: transparent;
+    border: 1px solid black;
+    width: 100px;
+    margin-top: auto;
+}
+
+.zak:hover{
+background: black;
+color: white;
+}
+
+.zak:active{
+    color: black;
+    background: transparent;
+    tansition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear; 
+}
+
+.conte{
+
+}
+.hui .product-image {
+    width: 100px;
+    height: 250px;
+}
+li {
+  list-style-type: none;
+}
